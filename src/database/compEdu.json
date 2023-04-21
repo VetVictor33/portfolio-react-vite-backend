@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Python para Data Science(Alura)",
+        "date": "2021",
+        "description": "Princípios de Dada Science e Python com uso de Anaconda e Júpiter. Introdução à análise de dados"
+    },
+    {
+        "id": 2,
+        "title": "Programação em Android básica pts1, 2 e 3(Alura)",
+        "date": "2021",
+        "description": "Princípios da programação mobile com uso de Kotlin e Android Studio"
+    },
+    {
+        "id": 3,
+        "title": "Java e Orientação a Objetos(Alura)",
+        "date": "2021",
+        "description": "Princípios da orientação a objetos e bases de Java com uso de Eclipse IDE"
+    },
+    {
+        "id": 4,
+        "title": "Iniciante em Programação(Alura)",
+        "date": "2021",
+        "description": "Princípios da lógica de programação, introdução a HTML, CSS e JavaScript"
+    },
+    {
+        "id": 5,
+        "title": "CS50’s Introduction to Computer Science (Harvard University)",
+        "date": 2022,
+        "description": "O curso CS50's Introduction to Computer Science da Harvard é uma introdução abrangente à ciência da computação. O curso cobre uma ampla gama de tópicos, incluindo programação em C, Python e JavaScript, estruturas de dados, algoritmos, desenvolvimento web e segurança cibernética."
+    },
+    {
+        "id": 6,
+        "title": "Prototipação no-code soluções digitais (Samsung Ocean)",
+        "date": 2023,
+        "description": "O curso ensina a criação de protótipos funcionais de soluções digitais sem programação, utilizando a ferramenta no-code Figma para criar interfaces de usuário e fluxos de navegação."
+    },
+    {
+        "id": 7,
+        "title": "Jornada FullStack (Samsung Ocean)",
+        "date": 2023,
+        "description": "Programa de capacitação que abrange 8 aulas, totalizando 24 horas de duração. Durante o programa, os participantes aprendem habilidades em tecnologias web, como HTML, CSS, JavaScript, Node.js com Express e React, além do uso do banco de dados MongoDB, preparando-os para atuar como desenvolvedores Fullstack."
+    },
+    {
+        "id": 8,
+        "title": "Fullstack Web Development (SkillShare)",
+        "date": 2023,
+        "description": "O curso Fullstack Web Development abrange quatro cursos que ensinam habilidades em tecnologias web, incluindo HTML, CSS, JavaScript, Node.js com Express, além do framework Bootstrap. O projeto final permite que os participantes apliquem suas habilidades em um contexto real e desenvolvam uma aplicação fullstack, com tecnologias como Express, Pug, MongoDB e Cloudinary. É uma ótima opção para quem busca aprender a desenvolver aplicações web completas, com ênfase em tecnologias modernas e populares como Node.js e Express."
+    }
+]

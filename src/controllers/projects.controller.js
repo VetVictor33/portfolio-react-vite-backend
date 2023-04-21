@@ -1,6 +1,5 @@
 const { readAllProjects, readSingleProject } = require("../database/repository");
 
-
 const getAllProjects = async (req, res) => {
     try {
         const projects = await readAllProjects();

@@ -1,6 +1,7 @@
 const { readFile } = require('fs/promises');
 
-const projectsPath = './src/database/projects.json'
+const projectsPath = './src/database/projects.json';
+const compEduPath = './src/database/compEdu.json';
 
 const readAllProjects = async () => {
     try {
@@ -21,7 +22,17 @@ const readSingleProject = async (id) => {
     }
 }
 
+const readAllCompEdu = async () => {
+    try {
+        const compEdu = JSON.parse(await readFile(compEduPath, ((data) => data)));
+        return compEdu
+    } catch (error) {
+        return [undefined, error]
+    }
+}
+
 module.exports = {
     readAllProjects,
-    readSingleProject
+    readSingleProject,
+    readAllCompEdu
 }
