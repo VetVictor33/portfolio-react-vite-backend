@@ -1,6 +1,6 @@
 const { readFile } = require('fs/promises');
 
-const projectsPath = './src/database/projectsa.json'
+const projectsPath = './src/database/projects.json'
 
 const readAllProjects = async () => {
     try {
@@ -11,6 +11,17 @@ const readAllProjects = async () => {
     }
 }
 
+const readSingleProject = async (id) => {
+    try {
+        const projects = await readAllProjects();
+        const project = projects.find(project => project.id === +id);
+        return project
+    } catch (error) {
+        return [undefined, error]
+    }
+}
+
 module.exports = {
     readAllProjects,
+    readSingleProject
 }

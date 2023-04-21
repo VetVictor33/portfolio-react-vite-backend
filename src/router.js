@@ -1,7 +1,8 @@
 const express = require('express');
-const { getAllProjects } = require('./controllers/projects.controller');
+const { getAllProjects, getProject } = require('./controllers/projects.controller');
 const router = express();
 
-router.get('/projects', getAllProjects)
+router.get('/projects', getAllProjects);
+router.get('/projects/:id', getProject);
 
 module.exports = router;
