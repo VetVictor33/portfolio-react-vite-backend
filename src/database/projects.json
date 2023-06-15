@@ -1,6 +1,6 @@
 [
     {
-        "id": 8,
+        "id": 1,
         "imgSrc": "gourmet-burger",
         "title": "Gourmet Burger",
         "description": "Site que apresenta uma franquia de restaurantes baseado num curso da Skillshare. Todo o projeto foi feito utilizando o framework Bootstrap para estilizar a páginas e adicionar comportamentamento. As características mais interessantes do projeto são a responsividade, a presença do carousel, de um menu dropdown e de um modal.",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 2,
         "imgSrc": "rick-morty",
         "title": "Rick and Morty",
         "description": "Projeto realizado durante a jornada fullstack da Samsung Ocean. Estoi foi meu primeiro contato com a biblioteca React.js e com o Express.js.",
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 3,
         "imgSrc": "lets-travel",
         "title": "Let's Travel!",
         "description": "Essa aplicação simula um site de reserva de hotéis ao redor do mundo. É possível criar um usuário e fazer reservas que ficarão salvos no banco de dados. Se o usuário for um admin, é possível cadastrar novos hotéis ou deletá-los, visualizar e deletar pedidos de usuários comuns. O backend foi criado utilizando o framework Express, diversos pacotes do node foram adicionados para implementar as funcionalidades do site, como o bcrypt para encryptar a senha dos usuários antes de salvar no banco de dados, que no caso foi o mongoDB, além do pacote express-validator para validação dos dados fornecidos pelo usuário.",
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 4,
         "imgSrc": "portfolio-antigo",
         "title": "Portfólio Vanilla JS",
         "description": "Este portfólio, só que desenvolvido em Vanilla JavaScript, e por isso há muita repetição de código HTML, porém o site cumpre o propósito de maneira aceitável. Procurei implementar o conceito de mobile first no CSS, então o design foi iniciado com foco em dispositivos móveis. Utilizei a manipulação da DOM para adicionar itens dinamicamente tendo como referência um array de objetos que simula um JSON coletado de uma API ou backend",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 5,
         "imgSrc": "matching-game",
         "title": "Matching Game",
         "description": "Joguinho feito utilizando React como exercício da Cubos Academy. Foi excelente para praticar useState()!",
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 6,
         "imgSrc": "react-music-player",
         "title": "Music Player - React",
         "description": "Tocador de música feito como exercício proposto pela Cubos Academy tendo como referência um arquivo Figma. O maior desafio desse projeto foi combinar o uso de Hooks com a lógica de programação para alcançar os objetivos pretendidos.",
